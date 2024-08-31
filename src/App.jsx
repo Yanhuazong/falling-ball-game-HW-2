@@ -20,7 +20,6 @@ const balls= [
             key={ball.id}
             color={ball.color}
             position={ball.position}
-            onClick={() => handleBallClick(ball.id, ball.color)}
           />
         ))}
       </div>
